@@ -114,6 +114,4 @@ extract() {
 # 9. Final Message
 #########################################
 echo -e "${GRN}✔ Custom BashRC Loaded${RST}"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - bash)"
-export PATH="$PATH:$HOME/WebStorm/bin"
+
