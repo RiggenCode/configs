@@ -1,2 +1,2 @@
-# configs-
+# configs
 My .dotfiles 
