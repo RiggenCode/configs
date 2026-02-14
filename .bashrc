@@ -29,7 +29,7 @@ parse_git_branch() {
 # 3. PROMPT (PS1)
 # Shows: username@host:folder (gitbranch) $
 #########################################
-export PS1="${BLU}\u${RST}@${CYN}\h${RST}:${RED}\w${MAG}\$(parse_git_branch)${RST}\$ "
+export PS1="${RED}\u${RST}@${MAG}\h${RST}:${CYN}\w${BLU}\$(parse_git_branch)${RST}\$ "
 
 #########################################
 # 4. ALIASES
@@ -113,5 +113,5 @@ extract() {
 #########################################
 # 9. Final Message
 #########################################
-echo -e "${GRN}✔ Custom BashRC Loaded${RST}"
+echo -e "${CYN}✔ Custom BashRC Loaded${RST}"
 
